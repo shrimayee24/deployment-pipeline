@@ -13,7 +13,7 @@ public class TestAddition{
         int a = rand.nextInt(100); // random number between 0-99
         int b = rand.nextInt(100);
 
-        Adder adder = new Adder();
+        Addition adder = new Adder();
         int actualResult = adder.add(a, b);
         int expectedResult = Math.addExact(a, b); // Java built-in addition
 
